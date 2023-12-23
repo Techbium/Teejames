@@ -1,0 +1,349 @@
+#eclip{
+   float: left;
+   border-radius: 90px;
+   width:20%;
+}
+
+body{
+    background-color: #1c1a1a;
+    animation: mine;
+    animation-duration: 3s;
+}
+@keyframes mine{
+    0%{opacity:0;
+        transform: scale(0.5, 0.5);
+    }
+    100%{opacity:100}    
+    }
+
+#headertee{
+   position: relative;
+   top: 10px;
+   font-size:40px;
+   color:white;
+
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+   /* use the font family and font size from figma */
+
+}
+#attee{
+    position: relative;
+    bottom: 10px;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    /* use the font family and font size from figma */
+    color:white;
+}
+
+#creatordr{
+    clear:both;
+    position: relative;
+    bottom:0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:15px;
+    font-weight: lighter;
+    opacity: 80%;
+    color:white;
+
+    /* use the font family and font size from figma */
+}
+
+#subbtn{
+    margin-left: 160px;
+    height: 30px;
+    width:150px;
+    font-size: 12px;
+    color:white;
+    border-radius: 13px;
+    font-family: press start 2p;
+    background: linear-gradient(#A61E1E, #ce3b3b);
+    cursor: pointer;
+    border-style: solid;
+    border-width: 0px;
+    /* use value from figma */
+}
+
+#billboard{
+    margin-top:20px;
+    width: 100%;
+}
+
+/* #summary{
+    width:150px;
+    border-style: solid;
+    border-width:5px;
+    border-radius:10px;
+    padding: 15px;
+    border-color:black;
+} */
+
+#details{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* width:315px; */
+    /* border-style: solid; */
+    font-size:15px;
+    color:white;
+    /* border-width:1px;
+    border-radius:10px; */
+    padding: 2px;
+    /* border-color:black; */
+    justify-content:center;
+}
+
+#Episode1{
+    float:left;
+    /* position:relative; */
+    border-radius:5px;
+    width:45%;
+
+}
+
+#box2, #box3, #box4{
+    border-style:solid;
+    /* display: flex; */
+    align-items: center;
+    border-color: rgba(240, 248, 255, 0);
+    
+
+}
+#Episode2{
+    
+    
+    float:left;
+    /* position:relative; */
+    border-radius:4px;
+    /* top:20px; */
+    width:45%;
+
+}
+
+#Episode2bloopers{
+    clear:left;
+    float:left;
+    /* position:relative; */
+    border-radius:5px;
+    /* top:40px; */
+    width:45%;
+
+}
+
+#trailler{
+    clear:both;
+    float:left;
+    /* position:relative; */
+    border-radius:5px;
+    /* top:60px; */
+    width:45%;
+}
+
+#title0:visited, #title1:visited,#title2:visited,#title3:visited{
+    color:grey;
+}
+
+
+#videoplaylist{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+#box1{
+    border-style: solid;
+    /* display: flex; */
+    align-items: center;
+    border-color: rgba(240, 248, 255, 0);
+
+}
+ 
+
+#title0:hover, #title1:hover, #title2:hover, #title3:hover{
+        color:blue;
+}
+
+#title0, #title1, #title2, #title3{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display:inline;
+    text-decoration:none;
+    /* align-items: center;
+    margin-bottom:100px; */
+    color:white; 
+
+
+}
+
+a{
+    text-decoration: none;
+    /* color:black; */
+}
+
+/* #title1{
+    position:relative;
+    top:45px;
+    left:5px;
+    font-size: 15px;
+    display:inline;
+}
+
+#title2{
+    position:relative;
+    top:75px;
+    left:5px;
+    font-size: 15px;
+    display:inline;
+}
+
+#title3{
+    position:relative;
+    top:105px;
+    left:5px;
+    font-size: 15px;
+    display:inline;
+} */
+
+#footer{
+    color:white;
+    background-color: rgb(21, 20, 20);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:10px;
+    position:fixed;
+    bottom:-0px;
+    left:0px;
+    width:99%;
+    /* height:40px; */
+    display:none;
+
+
+    
+}
+
+#facebook{
+    position:relative;
+    left:15px;
+    width:20px;
+    bottom:3px;
+}
+
+#tiktok{
+    position:relative;
+    left:30px;
+    width:18px;
+    bottom:3px;
+}
+
+#youtube{
+    position:relative;
+    left:50px;
+    width: 30px;
+    bottom:-3px;
+}
+
+#instagram{
+    position:relative;
+    left:40px;
+    width:23px;
+    bottom:0px;
+}
+
+#follow{
+    font-family:monospace;
+    font-size: 13px;
+    display:flex;
+    float:left;
+    position:relative;
+    top:2px;
+}
+
+#showbtn{
+    color: rgb(201, 241, 226);
+    background: linear-gradient(rgb(9, 183, 214),
+    rgb(105, 17, 39));
+    border-radius:10px;
+    width:50px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    padding-left:5px;
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:15px;
+   
+    padding:5px;
+    padding-left:12px;
+}
+
+#offbtn{
+    float:right;
+    width:20px;
+    position:relative;
+    bottom:10px;
+    right:0px;
+    padding-left:10px;
+    color:red;
+
+    
+}
+
+
+
+
+
+/* @media screen and (min-width: 399px) and (max-width:448px ){
+    
+    
+     
+    #headertee{
+        color:red;
+        
+    }
+    #title3{top: 170px;}
+    #title2{top: 130px;}
+    #title1{top: 87px;}
+    #title0{top: 65px}
+    #title0, #title1, #title3, #title2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 448px) and (max-width:500px ){
+    #title3{top: 170px;}
+    #title2{top: 130px;}
+    #title1{top: 87px;}
+    #title0{top: 65px}
+    #title0, #title1, #title3, #title2{
+        font-size: 18px;
+    }
+} */
+
+
+
+@media screen and (min-width: 630px){
+    #Episode1, #Episode2, #Episode2bloopers, #trailler{
+        width: 300px;
+        
+
+    }
+    #title0, #title1, #title2, #title3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #Episode1, #Episode2, #Episode2bloopers, #trailler{
+        width: 150px;}
+}
+
+@media screen and (max-width: 300px){
+    #title0, #title1, #title2, #title3{
+        font-size: 10px;
+}
+}
+@media screen and (min-width: 700px){
+    #eclip{
+        
+       
+        width:150px;
+     }
+}
